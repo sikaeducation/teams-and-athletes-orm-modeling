@@ -1,0 +1,25 @@
+{
+  "name": "teams-and-athletes",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -wG --recursive --no-exit ./tests",
+    "start": "node ./bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^9.1.0",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.95.10",
+    "sqlite3": "^5.0.2"
+  }
+}
